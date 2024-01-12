@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <header>
+          <div class="my-balance">
+            <p>My balance</p>
+            <h1>$921.48</h1>
+          </div>
+          <div class="logo">
+            <img src="./images/logo.svg" alt="logo" />
+          </div>
+        </header>
+        <main>
+          <section class="section-data">
+            <h2>spending-last 7 days</h2>
+            <article>
+              <div class="details">
+                <div class="spending-info" data-id="mon">
+                  <span class="number"></span>
+                  <span class="day mon"></span>
+                  <p>mon</p>
+                </div>
+                <div class="spending-info" data-id="tue">
+                  <span class="number"></span>
+                  <span class="day tue"></span>
+                  <p>tue</p>
+                </div>
+                <div class="spending-info" data-id="wed">
+                  <span class="number"></span>
+                  <span class="day wed"></span>
+                  <p>wed</p>
+                </div>
+                <div class="spending-info" data-id="thu">
+                  <span class="number"></span>
+                  <span class="day thu"></span>
+                  <p>thu</p>
+                </div>
+                <div class="spending-info" data-id="fri">
+                  <span class="number"></span>
+                  <span class="day fri"></span>
+                  <p>fri</p>
+                </div>
+                <div class="spending-info" data-id="sat">
+                  <span class="number"></span>
+                  <span class="day sat"></span>
+                  <p>sat</p>
+                </div>
+                <div class="spending-info" data-id="sun">
+                  <span class="number"></span>
+                  <span class="day sun"></span>
+                  <p>sun</p>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section class="total-spending">
+            <div class="total-this-month">
+              <p>total this month</p>
+              <h3>$478.33</h3>
+            </div>
+            <div class="total-last-month">
+              <h4>+2.4%</h4>
+              <p>from last month</p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
